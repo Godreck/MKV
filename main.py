@@ -20,7 +20,7 @@ def delete_file():
     except:
         print("The system cannot find the file specified")
         return False
-
+#ХУЙЙЙЙЙЙЙ
 if __name__ == "__main__":
     if write_in_txt_file():  # создаём и пишем в файл "I love Git"
         print("[OK] write")
