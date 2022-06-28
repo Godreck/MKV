@@ -21,3 +21,11 @@ def delete_file():
         print("The system cannot find the file specified")
         return False
 
+if __name__ == "__main__":
+    if write_in_txt_file():  # создаём и пишем в файл "I love Git"
+        print("[OK] write")
+    
+    print(read_txt_file())  # читаем содержимое
+    
+    if delete_file():   # удаляем файл
+        print("[OK] delete")
